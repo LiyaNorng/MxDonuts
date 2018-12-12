@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C17EB5F21534AE2003B866F /* Items.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C17EB5E21534AE2003B866F /* Items.swift */; };
+		8C17EB6121534C21003B866F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C17EB6021534C21003B866F /* User.swift */; };
 		8C25B9A02153051A00773280 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C25B99F2153051A00773280 /* AppDelegate.swift */; };
 		8C25B9A22153051A00773280 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C25B9A12153051A00773280 /* ViewController.swift */; };
 		8C25B9A52153051A00773280 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C25B9A32153051A00773280 /* Main.storyboard */; };
@@ -14,6 +16,14 @@
 		8C25B9AA2153051A00773280 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C25B9A82153051A00773280 /* LaunchScreen.storyboard */; };
 		8C25B9B52153051B00773280 /* MxDonutsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C25B9B42153051B00773280 /* MxDonutsTests.swift */; };
 		8C25B9C02153051B00773280 /* MxDonutsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C25B9BF2153051B00773280 /* MxDonutsUITests.swift */; };
+		8C25B9CE2153053400773280 /* listOfItems.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8C25B9CD2153053400773280 /* listOfItems.txt */; };
+		8C25B9D02153053D00773280 /* SuppliesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C25B9CF2153053D00773280 /* SuppliesTableViewController.swift */; };
+		8C3386AA2154690C0013C9D9 /* TextFormatOfItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3386A92154690C0013C9D9 /* TextFormatOfItem.swift */; };
+		8C3386AC215476A50013C9D9 /* LogIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3386AB215476A50013C9D9 /* LogIn.swift */; };
+		8C3386AE215476BB0013C9D9 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3386AD215476BB0013C9D9 /* SignUp.swift */; };
+		8C3386B2215482C80013C9D9 /* ListOfDates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3386B1215482C80013C9D9 /* ListOfDates.swift */; };
+		8C3386B42154B2B80013C9D9 /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3386B32154B2B80013C9D9 /* Record.swift */; };
+		8C393004216C450C00925F98 /* InventoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C393003216C450C00925F98 /* InventoryTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +44,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8C25B99C2153051A00773280 /* MxDonuts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MxDonuts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C043F2A2155BB75006FA92E /* MxDonuts.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MxDonuts.entitlements; sourceTree = "<group>"; };
+		8C17EB5E21534AE2003B866F /* Items.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Items.swift; sourceTree = "<group>"; };
+		8C17EB6021534C21003B866F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		8C25B99F2153051A00773280 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8C25B9A12153051A00773280 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8C25B9A42153051A00773280 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8C25B9A62153051A00773280 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C25B9A92153051A00773280 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C25B9AB2153051A00773280 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8C25B9B02153051B00773280 /* MxDonutsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MxDonutsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C25B9B42153051B00773280 /* MxDonutsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MxDonutsTests.swift; sourceTree = "<group>"; };
 		8C25B9B62153051B00773280 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8C25B9BB2153051B00773280 /* MxDonutsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MxDonutsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C25B9BF2153051B00773280 /* MxDonutsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MxDonutsUITests.swift; sourceTree = "<group>"; };
 		8C25B9C12153051B00773280 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C25B9CD2153053400773280 /* listOfItems.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = listOfItems.txt; sourceTree = "<group>"; };
+		8C25B9CF2153053D00773280 /* SuppliesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuppliesTableViewController.swift; sourceTree = "<group>"; };
+		8C3386A92154690C0013C9D9 /* TextFormatOfItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFormatOfItem.swift; sourceTree = "<group>"; };
+		8C3386AB215476A50013C9D9 /* LogIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogIn.swift; sourceTree = "<group>"; };
+		8C3386AD215476BB0013C9D9 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		8C3386B1215482C80013C9D9 /* ListOfDates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfDates.swift; sourceTree = "<group>"; };
+		8C3386B32154B2B80013C9D9 /* Record.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
+		8C393003216C450C00925F98 /* InventoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryTableViewController.swift; sourceTree = "<group>"; };
+		8CA53F6221C1C6EF000E6A25 /* MxDonuts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MxDonuts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CA53F6321C1C6EF000E6A25 /* MxDonutsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MxDonutsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CA53F6421C1C6EF000E6A25 /* MxDonutsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MxDonutsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,26 +101,27 @@
 				8C25B99E2153051A00773280 /* MxDonuts */,
 				8C25B9B32153051B00773280 /* MxDonutsTests */,
 				8C25B9BE2153051B00773280 /* MxDonutsUITests */,
-				8C25B99D2153051A00773280 /* Products */,
+				8CA53F6221C1C6EF000E6A25 /* MxDonuts.app */,
+				8CA53F6321C1C6EF000E6A25 /* MxDonutsTests.xctest */,
+				8CA53F6421C1C6EF000E6A25 /* MxDonutsUITests.xctest */,
 			);
-			sourceTree = "<group>";
-		};
-		8C25B99D2153051A00773280 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				8C25B99C2153051A00773280 /* MxDonuts.app */,
-				8C25B9B02153051B00773280 /* MxDonutsTests.xctest */,
-				8C25B9BB2153051B00773280 /* MxDonutsUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		8C25B99E2153051A00773280 /* MxDonuts */ = {
 			isa = PBXGroup;
 			children = (
+				8C043F2A2155BB75006FA92E /* MxDonuts.entitlements */,
+				8CA53F6521C1C6FD000E6A25 /* Model */,
 				8C25B99F2153051A00773280 /* AppDelegate.swift */,
 				8C25B9A12153051A00773280 /* ViewController.swift */,
+				8C393003216C450C00925F98 /* InventoryTableViewController.swift */,
+				8C25B9CD2153053400773280 /* listOfItems.txt */,
+				8C25B9CF2153053D00773280 /* SuppliesTableViewController.swift */,
 				8C25B9A32153051A00773280 /* Main.storyboard */,
+				8C3386B1215482C80013C9D9 /* ListOfDates.swift */,
+				8C3386AB215476A50013C9D9 /* LogIn.swift */,
+				8C3386AD215476BB0013C9D9 /* SignUp.swift */,
+				8C3386A92154690C0013C9D9 /* TextFormatOfItem.swift */,
 				8C25B9A62153051A00773280 /* Assets.xcassets */,
 				8C25B9A82153051A00773280 /* LaunchScreen.storyboard */,
 				8C25B9AB2153051A00773280 /* Info.plist */,
@@ -125,6 +147,16 @@
 			path = MxDonutsUITests;
 			sourceTree = "<group>";
 		};
+		8CA53F6521C1C6FD000E6A25 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8C17EB6021534C21003B866F /* User.swift */,
+				8C17EB5E21534AE2003B866F /* Items.swift */,
+				8C3386B32154B2B80013C9D9 /* Record.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -142,7 +174,7 @@
 			);
 			name = MxDonuts;
 			productName = MxDonuts;
-			productReference = 8C25B99C2153051A00773280 /* MxDonuts.app */;
+			productReference = 8CA53F6221C1C6EF000E6A25 /* MxDonuts.app */;
 			productType = "com.apple.product-type.application";
 		};
 		8C25B9AF2153051B00773280 /* MxDonutsTests */ = {
@@ -160,7 +192,7 @@
 			);
 			name = MxDonutsTests;
 			productName = MxDonutsTests;
-			productReference = 8C25B9B02153051B00773280 /* MxDonutsTests.xctest */;
+			productReference = 8CA53F6321C1C6EF000E6A25 /* MxDonutsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		8C25B9BA2153051B00773280 /* MxDonutsUITests */ = {
@@ -178,7 +210,7 @@
 			);
 			name = MxDonutsUITests;
 			productName = MxDonutsUITests;
-			productReference = 8C25B9BB2153051B00773280 /* MxDonutsUITests.xctest */;
+			productReference = 8CA53F6421C1C6EF000E6A25 /* MxDonutsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -193,6 +225,14 @@
 				TargetAttributes = {
 					8C25B99B2153051A00773280 = {
 						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+							com.apple.DataProtection = {
+								enabled = 0;
+							};
+						};
 					};
 					8C25B9AF2153051B00773280 = {
 						CreatedOnToolsVersion = 10.0;
@@ -213,7 +253,7 @@
 				Base,
 			);
 			mainGroup = 8C25B9932153051A00773280;
-			productRefGroup = 8C25B99D2153051A00773280 /* Products */;
+			productRefGroup = 8C25B9932153051A00773280;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -229,6 +269,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C25B9CE2153053400773280 /* listOfItems.txt in Resources */,
 				8C25B9AA2153051A00773280 /* LaunchScreen.storyboard in Resources */,
 				8C25B9A72153051A00773280 /* Assets.xcassets in Resources */,
 				8C25B9A52153051A00773280 /* Main.storyboard in Resources */,
@@ -256,8 +297,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C3386B2215482C80013C9D9 /* ListOfDates.swift in Sources */,
+				8C17EB5F21534AE2003B866F /* Items.swift in Sources */,
+				8C393004216C450C00925F98 /* InventoryTableViewController.swift in Sources */,
+				8C25B9D02153053D00773280 /* SuppliesTableViewController.swift in Sources */,
+				8C3386AA2154690C0013C9D9 /* TextFormatOfItem.swift in Sources */,
 				8C25B9A22153051A00773280 /* ViewController.swift in Sources */,
+				8C3386B42154B2B80013C9D9 /* Record.swift in Sources */,
+				8C17EB6121534C21003B866F /* User.swift in Sources */,
 				8C25B9A02153051A00773280 /* AppDelegate.swift in Sources */,
+				8C3386AE215476BB0013C9D9 /* SignUp.swift in Sources */,
+				8C3386AC215476A50013C9D9 /* LogIn.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,14 +482,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8475XEKZ5A;
 				INFOPLIST_FILE = MxDonuts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Ah-i.MxDonuts";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -449,14 +503,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8475XEKZ5A;
 				INFOPLIST_FILE = MxDonuts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Ah-i.MxDonuts";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
